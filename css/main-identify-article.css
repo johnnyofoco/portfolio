@@ -10,10 +10,6 @@ main .identify-article{
 
 .identify-article img{
     grid-column: 1 / 3;
-    padding-top: 1rem;
-    padding-right: 4rem;
-    padding-left: 0;
-    max-width: 20rem;
 }
 
 .identify-article .identify-description{
@@ -36,12 +32,12 @@ main .identify-article{
 }
 
 .identify-description .detail{
-    max-width: 8rem;
+    max-width: 3rem;
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
     position: absolute;
-    top: 5rem;
-    left: -1.15rem;
+    top: 11.25rem;
+    left: -0.45rem;
     z-index: -1;
 }
