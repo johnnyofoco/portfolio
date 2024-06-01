@@ -1,0 +1,155 @@
+/*
+-----------------------------
+   #### MOBILE SCREEN ####
+-----------------------------
+*/
+@media (max-width: 576px){
+    /* ### HEADER ### */
+    header{
+        gap: 2rem;
+        padding-bottom: 0;
+    }
+
+    header img{
+        grid-column: 1 / -1;
+        justify-self: center;
+    }  
+
+    header nav {
+        grid-column: 1 / -1 ;
+    }
+
+    /* ### MAIN ### */
+    .main-container{
+        padding: 2rem 0.5rem;        
+    }
+
+        /*IDENTIFY*/
+    .identify-article img{
+        grid-column: 1 / -1;
+        justify-self: center;
+        padding: 0;
+        margin-top: 1rem;
+    }
+
+    .identify-description .detail {
+        max-width: 2.75rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+        position: absolute;
+        top: 0.40rem;
+        left: 3rem;
+        z-index: -1;
+    }
+
+    .identify-article .identify-description{        
+        grid-column: 1 / -1;        
+        text-align: center;
+    }
+
+        /*EXPERIENCIES*/
+    main .experience-article{
+        grid-template-rows: repeat(4, auto)
+    }
+    
+    .experience-article .experiences {
+        grid-column: 1 / -1;
+        grid-row: 3 / 5;
+        padding: 0;
+    }
+
+    .experience-article .experience-item{
+        padding: 0;
+    }
+
+    .experience-article .subtitle {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        text-align: center;
+        font-size: 4rem;        
+        line-break: anywhere;
+    }
+
+    .experience-article .profile-description {
+        line-height: 1.65rem;
+        grid-column: 1 / -1;
+        grid-row: 2 / 3;
+        padding: 1rem 2rem;
+    }
+    
+    .experience-article .experiences {
+        grid-column: 1 / -1;
+        grid-row: 3 / 5;
+        padding: 1rem 2.5rem;
+    }
+    
+        /*EDUCATIONAL-BACKGROUND*/
+    .educational-background{
+        padding: 0.75rem;
+    }
+    .educational-background .subtitle {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        text-align: center;
+        font-size: 4rem;
+        line-break: anywhere;
+    }
+
+    .educational-background .educational-intro {
+        grid-column: 1 / -1;
+        grid-row: 2 / 3;
+        padding: 1rem 2rem;
+        max-width: 40rem;
+        line-height: 1.65rem;
+        color: #7d7b7b;
+    }
+
+    .educational-background .graduations {
+        grid-column: 1 / -1;
+        grid-row: 3 / 4;
+        padding: 1rem 1rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .graduations .graduation-item{
+        margin: 0.5rem;
+        width: 20rem;
+        justify-self: center;
+    }
+
+    .educational-background .courses {
+        grid-column: 1 / -1;
+        padding: 1rem 1rem;
+    }
+
+    .courses h3{
+        margin-top: 1rem;
+    }
+ 
+    /* ### FOOTER ### */
+    footer{
+        padding: 2rem;
+    }
+
+    footer .observations {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    .observations p:nth-child(1) {
+        margin-bottom: 1rem;
+        width: auto;
+    }
+
+    footer .contact-data {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    .contact-data a{
+        text-transform: none;
+        text-decoration: none;
+    }
+
+}

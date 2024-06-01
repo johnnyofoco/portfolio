@@ -1,0 +1,47 @@
+/*
+--------------------------------
+#### MAIN-IDENTIFY ARTICLE ####
+--------------------------------
+*/
+main .identify-article{    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);        
+}
+
+.identify-article img{
+    grid-column: 1 / 3;
+    padding-top: 1rem;
+    padding-right: 4rem;
+    padding-left: 0;
+    max-width: 20rem;
+}
+
+.identify-article .identify-description{
+    grid-column: 3 / -1;  /*preenchimento no grid do identify-article*/ 
+    align-content: center;  
+    position: relative;
+    z-index: 10;
+}
+
+.identify-description h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: "Finger Paint", sans-serif;
+}
+
+.identify-description .profile{
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.identify-description .detail{
+    max-width: 8rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 3.5rem;
+    left: -1.25rem;
+    z-index: -1;
+}

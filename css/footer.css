@@ -1,0 +1,41 @@
+footer{
+    display: grid;
+    grid-template-columns: repeat(1,fr);
+    gap: 2.5rem;
+    background-color: black;
+    padding: 3rem;
+    position: relative;
+}
+
+footer img{
+    position: absolute;
+    max-width: 2rem;
+    top: -1rem;
+    left: 2rem;
+}
+
+footer .observations{
+    grid-column: 1 / 2;
+    color:#949090;
+}
+
+.observations p:nth-child(1){
+    margin-bottom: 5rem;
+    width: 20rem;
+}
+
+.observations p:nth-child(2){
+    color: #4e4d4d;
+    font-size: 0.7rem;
+}
+
+footer .contact-data{
+    grid-column: 2 / 3;
+}
+
+.contact-data p{
+    padding: 0 0 0.5rem 0;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: bold;    
+}

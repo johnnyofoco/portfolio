@@ -1,0 +1,76 @@
+/*
+-----------------------------------------
+    #### MAIN-EXPERIENCE ARTICLE ####
+-----------------------------------------
+*/
+main .experience-article{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    align-items: start;    
+}
+
+.experience-article .subtitle{
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+    font-size: 5.5rem;
+    color: #e0e0e0;
+    line-break: anywhere;
+}
+
+.experience-article .profile-description{
+    grid-column: 2 / -1;  /*preenchimento no grid do experience-article*/ 
+    grid-row: 1 / 2;
+    padding: 1rem 2.5rem;
+    max-width: 40rem;
+    line-height: 1.65rem;
+}
+
+.experience-article .experiences{
+    grid-column: 2 / -1; /*preenchimento no grid do experience-article*/ 
+    grid-row: 2 / 5;
+    padding: 1rem 2.5rem;
+}
+
+.experience-item{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr); 
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+.experience-item .projects{
+    grid-template-columns: 1 / 2; /*preenchimento no grid do experience-item*/ 
+    display: grid;
+    grid-template-columns: auto, 1fr;
+    gap: 0.5rem;
+}
+
+.projects .year{
+    grid-column: 1 / 2;
+}
+
+.year{
+    border-right: solid 3px #13f01b;    
+    padding-right: 0.5rem;
+    color: #9a9a9a;
+}
+
+.projects .organizaton{
+    grid-column: 2 / 3;
+}
+
+.projects .project-description{
+    grid-column: 2 / 3;
+}
+
+.experience-item .occupation-and-techs{
+    grid-template-columns: 2 / 3; /*preenchimento no grid do experience-item*/ 
+    display: grid;
+    grid-template-columns: 3, auto;    
+}
+
+.occupation-and-techs .occupation{
+    grid-column: 1 / 4;
+}
