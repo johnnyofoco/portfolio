@@ -39,3 +39,12 @@ footer .contact-data{
     font-size: 1.25rem;
     font-weight: bold;    
 }
+
+.contact-data a{
+    color: #fff;
+    text-decoration: none;     
+}
+.contact-data a:visited{
+    color: #fff;
+    text-decoration: #e2cb17;
+}
