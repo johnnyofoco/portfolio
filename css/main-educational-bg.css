@@ -89,8 +89,27 @@
     color: #4e4d4d;
     font-size: 0.75rem;
     padding: 0.25rem;
-    
+    position: relative;   
 }
+
+.courses h3:nth-child(1)::before{
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url("../assets/img/cursos.svg") no-repeat center;
+    position: absolute;    
+}
+
+.courses h3:nth-child(3)::before{
+    display: block;    
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url("../assets/img/idiomas.svg") no-repeat center;
+    position: absolute;    
+}
+
 
 .courses ul li ul{
     padding: 0.50rem;
