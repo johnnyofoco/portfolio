@@ -45,7 +45,7 @@
     padding: 1rem;
     margin: 1rem;
     height: 10rem;
-    width: 8rem;
+    width: 16rem;
 }    
 
 .graduation-item .graduation-title{
@@ -89,7 +89,13 @@
     color: #4e4d4d;
     font-size: 0.75rem;
     padding: 0.25rem;
-    position: relative;   
+    position: relative;
+    text-align: left;
+}
+
+
+.courses ul{
+    text-align: left;
 }
 
 .courses h3:nth-child(1)::before{
@@ -98,16 +104,26 @@
     width: 24px;
     height: 24px;
     background: url("../assets/img/cursos.svg") no-repeat center;
-    position: absolute;    
+    position: absolute;
+    top: -0.1rem;
+    left: -2rem;
+    
+}
+
+.courses h3:nth-child(3){    
+    margin-top: 2rem;
 }
 
 .courses h3:nth-child(3)::before{
+    
     display: block;    
     content: "";
     width: 24px;
     height: 24px;
     background: url("../assets/img/idiomas.svg") no-repeat center;
-    position: absolute;    
+    position: absolute;
+    top: -0.1rem;
+    left: -2rem;    
 }
 
 
